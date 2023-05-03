@@ -1,129 +1,67 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-body{
-    max-width: 80%;
-    margin: 30px auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 80vh;
-}
-.canvas{
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-    background-color: rgb(241, 241, 255);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.figure{
-    width: 150px;
-    height: 150px;
-    transition: all .5s;
-}
-.figure:nth-of-type(1){
+.carre:nth-of-type(1){
     height : 0;
     width : 0;
     border-top : 80px solid red;
     border-right : 80px solid transparent;
     border-left : 80px solid transparent;
     position: absolute;
+    left: 0%;
+    top: 0;
 }
-.figure:nth-of-type(2){
+.carre:nth-of-type(2){
     height : 0;
     width : 0;
     border-top : 80px solid transparent;
     border-right : 80px solid rgb(34, 255, 0);
     border-bottom : 80px solid transparent;
     position: absolute;
-    top: 42%;
-    left: 50%;
+    top: 0;
+    left: 80px;
 }
-.figure:nth-of-type(3){
+.carre:nth-of-type(3){
     height : 0;
     width : 0;
     border-top : 40px solid transparent;
     border-bottom : 40px solid transparent;
     border-left : 40px solid rgb(0, 119, 255);
     position: absolute;
-    left: 34%;
+    top: 0;
+    left: 0px;
 }
-.figure:nth-of-type(4){
+.carre:nth-of-type(4){
     height : 55px;
     width : 55px;
     position: absolute;
     background-color: rgb(44, 251, 241);
     transform: rotate(45deg);
-    top: 52.5%;
-    left: 36.5%;
+    top: 52px;
+    left: 12px;
 }
-.figure:nth-of-type(5){
+.carre:nth-of-type(5){
     height : 0;
     width : 0;
     position: absolute;
     border-right : 85px solid transparent;
     border-bottom : 85px solid rgb(183, 0, 255);
-    top: 58%;
-    left: 34%;
-
+    top: 78px;
+    left: 0px;
 }
-.figure:nth-of-type(6){
+.carre:nth-of-type(6){
     height : 0;
     width : 0;
     position: absolute;
     border-right : 40px solid transparent;
     border-bottom : 40px solid rgb(36, 139, 38);
     border-left : 40px solid transparent;
-    top: 57.9%;
-    left: 42%;
+    top: 79px;
+    left: 39px;
 }
-.figure:nth-of-type(7){
+.carre:nth-of-type(7){
     position: absolute;
     clip-path: polygon(22% 70%, 65% 70%, 89% 99%, 46% 99%);
     background-color: rgb(243, 30, 119);
     transform: scaleX(1.2);
     transform-origin: left;
-    top: 45%;
-    left: 34.5%;
+    top: 14px;
+    left: 1px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
