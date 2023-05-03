@@ -24,7 +24,7 @@ body{
 .figure{
     width: 150px;
     height: 150px;
-    transition: all .5s;
+    transition: all .8s;
 }
 .figure:nth-of-type(1){
     height : 0;
