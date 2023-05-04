@@ -1,0 +1,54 @@
+.figure{
+    width: 150px;
+    height: 150px;
+    transition: all 1.2s;
+}
+.red{
+    height : 0;
+    width : 0;
+    border-top : 80px solid red;
+    border-right : 80px solid transparent;
+    border-left : 80px solid transparent;
+}
+.green{
+    height : 0;
+    width : 0;
+    border-top : 80px solid transparent;
+    border-right : 80px solid rgb(34, 255, 0);
+    border-bottom : 80px solid transparent;
+}
+.blue{
+    height : 0;
+    width : 0;
+    border-top : 40px solid transparent;
+    border-bottom : 40px solid transparent;
+    border-left : 40px solid rgb(0, 119, 255);
+}
+.yellow{
+    height : 55px;
+    width : 55px;
+    position: absolute;
+    background-color: rgb(44, 251, 241);
+}
+.purple{
+    height : 0;
+    width : 0;
+    position: absolute;
+    border-right : 85px solid transparent;
+    border-bottom : 85px solid rgb(183, 0, 255);
+}
+.brown{
+    height : 0;
+    width : 0;
+    position: absolute;
+    border-right : 40px solid transparent;
+    border-bottom : 40px solid rgb(36, 139, 38);
+    border-left : 40px solid transparent;
+}
+/* .orange{
+    position: absolute;
+    background-color: rgb(243, 30, 119);
+    transform: skew(45deg, 0deg);
+    width: 77px;
+    height: 42.3px;
+} */

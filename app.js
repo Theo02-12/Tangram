@@ -1,29 +1,24 @@
-const figureDiv = document.querySelectorAll('.figure');
+let link;
 
+function modeForme(cssUrl){
+    if(link){
+        link.remove();
+    }
+    link = document.createElement('link');
+    link.href = cssUrl;
+    link.rel = 'stylesheet';
+    // link.setAttribute('disabled', false)
+    document.head.appendChild(link);
+}
 
-const btnCarre = document.getElementById('carre');
-const btnGiraffe = document.getElementById('giraffe')
-const btnVautour = document.getElementById('vautour');
+const figure = document.querySelectorAll('.figure')
+const btnThree = document.getElementById('btnFour');
 
+btnThree.addEventListener('click', () => {
 
-btnCarre.addEventListener('click', () =>{
-    figureDiv.forEach(figures => {
-        figures.classList.remove('carre');
-        figures.classList.remove('giraffe');
-        figures.classList.remove('vautour');
-    })
-})
-btnGiraffe.addEventListener('click', () =>{
-    figureDiv.forEach(figures => {
-        figures.classList.add('giraffe');
-        figures.classList.remove('carre');
-        figures.classList.remove('vautour');
-    })
-})
-btnVautour.addEventListener('click', () =>{
-    figureDiv.forEach(figures => {
+    console.log(figure);
+    
+    figure.forEach(figures => {
         figures.classList.add('vautour');
-        figures.classList.remove('carre');
-        figures.classList.remove('giraffe');
     })
 })
