@@ -1,0 +1,40 @@
+.red.butterfly {
+
+    left: 195px;
+    top: 200px;
+    transform: rotate(-45deg);
+}
+.green.butterfly {
+ 
+    top: 160px;
+    left: 70px;
+    transform: rotate(-45deg);
+}
+.blue.butterfly {
+
+    left: 104px;
+    top: 242px;
+    transform: rotate(-45deg);
+}
+.yellow.butterfly {
+    transform: rotate(0deg);
+    top: 269px;
+    left: 139px;
+}
+.purple.butterfly{
+   
+    top: 225px;
+    left: 202px;
+    transform: rotate(-45deg);
+}
+.brown.butterfly{
+  
+    top: 319px;
+    left: 112px;
+    transform: rotate(-45deg);
+}
+.orange.butterfly{
+    top: 159px;
+    left: 195px;
+    transform: rotate(45deg);
+}

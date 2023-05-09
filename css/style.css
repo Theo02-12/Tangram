@@ -1,0 +1,39 @@
+body {
+    max-width: 80%;    
+    margin: 30px auto;    
+    position: relative;    
+    display: flex;    
+    flex-direction: column;    
+    align-items: center;
+}
+
+.canvas{
+    width: 350px;    
+    height: 500px;    
+    border-radius: 20px;    
+    background-color: rgb(241, 241, 255);    
+    position: relative;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+}
+@media (min-width:1000px) {
+    .canvas{
+        overflow-x: visible;
+    }
+}
+.buttons button{
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color .5s linear;
+}
+.buttons button:hover{
+    background-color: rgb(173, 173, 255);
+}
+.figure{
+    width: 150px;
+    height: 150px;
+    transition: all .8s !important;
+}

@@ -1,0 +1,35 @@
+.red.giraffe{
+    position: absolute;
+    top: 225px;
+    left: 15.5%;
+    transform: rotate(90deg);
+}
+.green.giraffe{
+    position: absolute;
+    top: 185px;
+    left: 49.78%;
+}
+.blue.giraffe{
+    position: absolute;
+    left: 49.9%;
+    top: 184px;
+}
+.yellow.giraffe{
+    transform: rotate(45deg);
+    top: 156px;
+    left: 53%;
+}
+.purple.giraffe{
+    top: 3px;
+    left: 255px;
+}
+.brown.giraffe{
+    transform: rotate(270deg);
+    top: 62px;
+    left: 195px;
+}
+.orange.giraffe{
+    top: 141px;
+    left: 81.5%;
+    transform: rotateZ(90deg) rotateY(180deg);
+}

@@ -1,0 +1,35 @@
+.red.avion{
+    top: 165px;
+    left: 114px;
+    transform: rotate(325deg);
+}
+.green.avion{
+    top: 180px;
+    transform: rotate(145deg);
+    left: 145px;
+}
+.blue.avion{
+    top: 197px;
+    left: 83px;
+    transform: rotate(280deg);
+}
+.yellow.avion{
+    transform: rotate(99deg);
+    top: 217px;
+    left: 216px;
+}
+.purple.avion{
+    top: 140px;
+    left: 253px;
+    transform: rotate(279deg);
+}
+.brown.avion{
+    top: 218px;
+    left: 247px;
+    transform: rotate(-36deg);
+}
+.orange.avion{
+    top: 142px;
+    left: 157px;
+    transform: rotate(-216deg);
+}

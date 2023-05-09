@@ -1,0 +1,43 @@
+
+.green.cat {
+        transform: rotate(225deg);
+        top: 355px;
+        left: 183px;
+}
+
+.red.cat {
+  
+    left: 132px;
+    top: 310px;
+    transform: rotate(-90deg);
+}
+.yellow.cat {
+   
+    transform: rotate(45deg);
+    top: 205px;
+    left: 145px;
+}
+.purple.cat {
+
+    top: 290px;
+    left: 130px;
+    transform: rotate(45deg);
+}
+.brown.cat {
+   
+    top: 170px;
+    left: 155px;
+    transform: rotate(-90deg);
+}
+.blue.cat {
+ 
+    left: 130px;
+    top: 150px;
+    transform: rotate(0deg);
+}
+.orange.cat {
+   
+    top: 314px;
+    left: 361px;
+    transform: rotateY(145deg);
+}

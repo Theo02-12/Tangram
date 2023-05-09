@@ -1,0 +1,31 @@
+.red{
+    top: 145px;
+    left: 90px;
+}
+.green{
+    left: 170px;
+    top: 145px;
+}
+.blue{
+    top: 145.5px;
+    left: 90px;
+}
+.yellow{
+    transform: rotate(45deg);
+    top: 197.4px;
+    left: 102.5px;
+}
+.purple{
+    top: 225px;
+    left: 90px;
+}
+.brown{
+    top: 224.6px;
+    left: 130px;
+}
+.orange{
+    transform: scaleX(1.2);
+    transform-origin: left;
+    top: 162px;
+    left: 91.2px;
+}

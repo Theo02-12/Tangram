@@ -1,24 +1,60 @@
-let link;
 
-function modeForme(cssUrl){
-    if(link){
-        link.remove();
-    }
-    link = document.createElement('link');
-    link.href = cssUrl;
-    link.rel = 'stylesheet';
-    // link.setAttribute('disabled', false)
-    document.head.appendChild(link);
-}
+let btnGiraffe = document.getElementById('btnFour');
+let btnCarre = document.getElementById('btnOne');
+let btnCat = document.getElementById('btnTwo');
+let btnButterfly = document.getElementById('btnThree');
+let btnAvion = document.getElementById('btnFive');
+let btnBird = document.getElementById('btnSix');
+let figures = document.querySelectorAll('.figure');
+const scrtBtn = document.createElement('button');
+const scrtLink = document.createElement('link');
+const divBtn = document.querySelector('.buttons')
 
-const figure = document.querySelectorAll('.figure')
-const btnThree = document.getElementById('btnFour');
+scrtLink.rel = 'stylesheet'
+scrtLink.href = 'css/secret.css'
 
-btnThree.addEventListener('click', () => {
+scrtBtn.innerHTML = 'Secret'
 
-    console.log(figure);
-    
-    figure.forEach(figures => {
-        figures.classList.add('vautour');
+document.head.appendChild(scrtLink);
+divBtn.appendChild(scrtBtn);
+
+btnCarre.innerHTML = 'Carré';
+btnCat.innerHTML= 'Chat';
+btnButterfly.innerHTML= 'Pappillon';
+btnGiraffe.innerHTML = 'Giraffe';
+btnAvion.innerHTML = 'Avion';
+btnBird.innerHTML = 'Oiseau';
+
+
+
+function animals(classe) {
+    figures.forEach(elements => {
+        elements.classList.remove('giraffe', 'cat','butterfly', 'bird','avion' ,'carre', 'secret')
+        elements.classList.add (classe)
     })
+}
+btnCarre.addEventListener('click', () => {
+    animals('carre')
+    
+})
+btnGiraffe.addEventListener('click', () => {
+    animals('giraffe')
+})
+btnCat.addEventListener('click', () => {
+   
+    animals('cat')
+})
+btnButterfly.addEventListener('click', () => {
+    animals('butterfly')
+})
+
+btnBird.addEventListener('click', () => {
+    animals('bird')
+})
+
+btnAvion.addEventListener('click', () => {
+    animals('avion') 
+})
+scrtBtn.addEventListener('click', () => {
+    animals('secret') 
 })
