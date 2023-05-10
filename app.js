@@ -25,6 +25,7 @@ btnButterfly.innerHTML= 'Pappillon';
 btnGiraffe.innerHTML = 'Giraffe';
 btnAvion.innerHTML = 'Avion';
 btnBird.innerHTML = 'Oiseau';
+btnPoint.innerHTML = 'Point';
 
 
 
